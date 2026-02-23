@@ -15,6 +15,11 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'admin' => \App\Http\Middleware\IsAdmin::class,
             'post.owner' => \App\Http\Middleware\PostOwner::class,
+            'seo' => \App\Http\Middleware\SeoMiddleware::class,
+        ]);
+        
+        $middleware->web(append: [
+            \App\Http\Middleware\SeoMiddleware::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {

@@ -7,7 +7,7 @@ use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 
-class PostPublished
+class PostCreated
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
@@ -15,4 +15,3 @@ class PostPublished
     {
     }
 }
-
