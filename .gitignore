@@ -35,6 +35,7 @@
 /public/hot
 npm-debug.log
 yarn-error.log
+.yarn
 
 # OS
 .DS_Store
@@ -44,12 +45,22 @@ desktop.ini
 # Vendor
 /vendor
 
+# Testing
+.phpunit.cache
+coverage/
+coverage.xml
+
+# Static Analysis
+.php-cs-fixer.cache
+.phpstorm.meta.php
+.psalm/
+phpstan.cache
+
 # Misc
 Homestead.json
 Homestead.yaml
 auth.json
-.phpunit.cache
-.php-cs-fixer.cache
-.phpstorm.meta.php
+deploy.php
+
 
 
