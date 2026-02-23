@@ -1,0 +1,27 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "blank_line_after_namespace": true,
+        "class_definition": true,
+        "final_class": true,
+        "final_internal_class": true,
+        "function_declaration": true,
+        "no_alias_functions": true,
+        "no_empty_statement": true,
+        "no_unused_imports": true,
+        "ordered_imports": true,
+        "phpdoc_no_empty_return": true,
+        "phpdoc_order": true,
+        "phpdoc_summary": true,
+        "return_type_declaration": true,
+        "single_trait_insert_per_statement": true,
+        "trailing_comma_in_multiline": true,
+        "visibility_required": true
+    },
+    "exclude": [
+        "vendor",
+        "node_modules",
+        "bootstrap/cache",
+        "storage"
+    ]
+}

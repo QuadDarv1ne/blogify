@@ -1,24 +1,55 @@
+# Laravel
 *.log
-.DS_Store
 .env
 .env.backup
 .env.production
-.phpactor.json
+.env.local
+.env.*.local
 .phpunit.result.cache
-/.fleet
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+/storage/*.key
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/framework/cache/*
+!/storage/framework/cache/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+
+# IDE
 /.idea
-/.nova
-/.phpunit.cache
 /.vscode
+/.fleet
 /.zed
-/auth.json
+.phpactor.json
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# Node
 /node_modules
 /public/build
 /public/hot
-/public/storage
-/storage/*.key
-/storage/pail
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vendor
 /vendor
+
+# Misc
 Homestead.json
 Homestead.yaml
-Thumbs.db
+auth.json
+.phpunit.cache
+.php-cs-fixer.cache
+.phpstorm.meta.php
+
+
