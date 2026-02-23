@@ -62,5 +62,8 @@ Homestead.yaml
 auth.json
 deploy.php
 
+# Composer (for applications - use for libraries)
+# composer.lock
+
 
 
